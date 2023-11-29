@@ -2,7 +2,7 @@ import './App.css';
 import "semantic-ui-css/semantic.min.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Series from './pages/Series';
 import Comics from './pages/Comics';
 import Error404 from './pages/Error404';
