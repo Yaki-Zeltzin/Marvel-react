@@ -1,9 +1,7 @@
-
-
-const Error404 = () => {
+export default function Error404() {
   return (
-    <div>Error404</div>
-  )
+    <div>
+      <p>estamos en la página 404</p>
+    </div>
+  );
 }
-
-export default Error404

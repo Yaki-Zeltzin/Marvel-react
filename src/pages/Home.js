@@ -1,11 +1,13 @@
-import Header from "../components/Header/Header"
+import BestCharacters from "../components/BestCharacters";
+import Insider from "../components/Insider";
+import ListLastEvents from "../components/ListLastEvents";
 
-
-const Home = () => {
+export default function Home() {
   return (
-    <div>Home
+    <div>
+      <BestCharacters />
+      <ListLastEvents />
+      <Insider />
     </div>
-  )
+  );
 }
-
-export default Home
